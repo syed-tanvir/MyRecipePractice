@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+}
+
+body{
+    width: 960px;
+    margin:0 auto;
+    font-family: arial, helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Header */
+
+header{
+    background-color: #EDE6E6;
+    height: 150px;
+    padding-top: 20px;
+    
+}
+
+li{
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+}
+
+header li:first-child{
+    border-right: 1px solid #373535;
+}
+
+
+.left{
+    width:320px;
+    float:left;
+}
+
+.left ul{
+    padding-top: 90px;
+    padding-left: 30px;
+}
+
+.right{
+    width:320px;
+    float:right;
+}
+
+.right ul{
+    padding-right: 30px;
+    padding-top: 90px;
+}
+
+#logo{
+    
+    width:320px;
+    float: left;
+    text-align: center;
+}
+
+#logo p{
+    font-size: 36px;
+    color: #B46363;
+    margin:0;
+}
+
+
+/* Main */
+
+.main{
+    
+    background-image:url("images/dishes.jpg");
+    height:438px;
+}
+
+.main p{
+    color:#B46363;
+    text-align: center;
+    font-size: 30px;
+    padding-top:20px;
+}
+
+form{
+    text-align:center;
+    padding-top: 30px;
+}
+#email{
+    
+    width:220px;
+    height:25px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#click{
+    height:24px;
+    border-radius: 5px;
+   padding:0 6px;
+}
+
+/* Features */
+
+#feature{
+    background-color: #EDE6E6;
+    height:340px;
+}
+.box{
+    float:left;
+    margin:15px 0;
+    position:relative;
+    
+    }
+
+.box img{
+    padding-left: 15px;
+   position: relative;
+    z-index:1;
+}
+
+.box p{
+    position:absolute;
+    width:100%;
+    z-index:2;
+    top:40px;
+    text-align: center;
+    font-size: 24px;
+    margin-left:15px;
+}
+
+.middle{
+    color:white;
+}
+
+/* Footer */
+
+footer{
+    background-color: #e5e0e0;
+    height:140px;
+    clear:both;
+}
+nav {
+    font-size: 16px;
+    text-align: center;
+}
+
+nav li{
+    border-right:1px solid #373535;
+}
+
+nav li:last-child{
+    border-right: none;
+}
+
+footer img{
+    display:block;
+    margin:0 auto;
+    padding-top:20px;
+}
